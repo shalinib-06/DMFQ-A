@@ -79,7 +79,7 @@ def main():
         burst = int(input(f"Enter burst time for {pid}: "))
         processes.append(Process(pid, arrival, burst))
 
-    time_quantum = int(input("Enter time quantum for Queue 1: "))
+    time_quantum = int(input("Enter time quantum for round robin (queue 1): "))
     aging_threshold = int(input("Enter aging threshold time: "))
 
     queue1 = [p for p in processes if p.queue_level == 1]
