@@ -14,7 +14,7 @@ class Process:
 def gantt_chart(queue1, queue2, queue3, time_quantum, aging_threshold):
     time = 0
     gantt = []
-    aging_info = []  # To store aging information
+    aging_info = []  # To store the aging information
     processes = sorted(queue1 + queue2 + queue3, key=lambda p: p.arrival)
     queue1, queue2, queue3 = deque(), deque(), deque()
 
