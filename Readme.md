@@ -1,4 +1,4 @@
-1. In the project **DMFQ-A** I have created:
+1. In this project **DMFQ-A** I have created:
 
 - A scheduling algorithm that incorporates multiple scheduling policies across various 
 priority levels. 
@@ -6,7 +6,7 @@ priority levels.
 over time. 
 - And balances system responsiveness for interactive tasks while managing long-running 
 background processes efficiently. 
-
+---
 2. Key Concepts:
 
 - ***Multilevel Queues***: Each queue uses a different scheduling algorithm: 
